@@ -74,7 +74,7 @@ Default ports:
 ```bash
 Redis port: 6379
 PostgreSQL port: 5432
-Booker port: 8080
+Booker port: 8087
 Bitshares gateway port: 8889
 Bitshares gateway websocket port: 7082
 Ethereum gateway port: 8089
