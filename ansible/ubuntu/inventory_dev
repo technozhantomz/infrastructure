@@ -1,18 +1,18 @@
 [bitshares_gateway_hosts]
-host1.example.com
-host2.example.com
+gateway.commodity.llc
+eth.commodity.llc
 
 [ethereum_gateway_hosts]
-host1.example.com
-host2.example.com
+gateway.commodity.llc
+eth.commodity.llc
 
 [booker_hosts]
-host3.example.com
-host1.example.com
+booker.commodity.llc
+gateway.commodity.llc
 
 [db_hosts]
-host3.example.com
-host1.example.com
+booker.commodity.llc
+gateway.commodity.llc
 
 [db_hosts:vars]
 ansible_python_interpreter=/usr/bin/python3
