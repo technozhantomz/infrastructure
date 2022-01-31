@@ -192,25 +192,25 @@ Edit defaults:
     > *Custom PostgreSQL port not supported*
     - db.yml
     ```bash
-    postgres_db_port: 5432
+    postgres_db_port: 5433
     ```
     - booker/.env 
     ```bash 
-    DB_PORT=5432
+    DB_PORT=5433
     DB_USER=booker
     DB_PASSWORD=booker
     DB_DATABASE=booker
     ```
     - bitshares_gateway/.env
     ```bash
-    DATABASE_PORT=5432
+    DATABASE_PORT=5433
     DATABASE_USERNAME=bitshares-gateway
     DATABASE_PASSWORD=bitshares-gateway
     DATABASE_NAME=bitshares-gateway
     ```
     - bitshares_gateway.yml
     ```bash
-     DATABASE_PORT: 5432
+     DATABASE_PORT: 5433
      DATABASE_USERNAME: "bitshares-gateway"
      DATABASE_PASSWORD: "bitshares-gateway"
      DATABASE_NAME: "bitshares-gateway"

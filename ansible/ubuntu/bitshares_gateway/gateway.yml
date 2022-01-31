@@ -2,17 +2,17 @@
 core_asset: TEST
 
 # Gateway prefix is a main gateway asset. It must be created in bitshares first.
-gateway_prefix: <your-prefix>
+gateway_prefix: LLC
 
 #Asset for distribution
 gateway_distribute_asset: USDT
 
 # Account for distribution (NOT asset owner! Just Gateway Wallet (funded by Governance wallet))
-account: <your-account>
+account: dennis
 
 keys:
-  active: <your-active-key>
-  memo: <your-memo-key>
+  active: 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+  memo: 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvdFDy
 
 min_deposit: 0.1
 min_withdrawal: 0.1

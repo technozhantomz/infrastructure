@@ -6,7 +6,7 @@
     postgres_db_name: 'app_db'
     postgres_db_user: 'app_user'
     postgres_db_password: 'app_password'
-    postgres_db_port: 5432
+    postgres_db_port: 5433
     # booker
     booker_db_name: 'booker'
     booker_db_user: 'booker'

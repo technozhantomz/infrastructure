@@ -5,14 +5,14 @@ services:
     container_name: booker
     environment:
       DB_DRIVER: postgres+psycopg2
-      DB_HOST: "127.0.0.1"
-      DB_PORT: 5432
+      DB_HOST: "167.99.6.79"
+      DB_PORT: 5433
       DB_USER: "booker"
       DB_PASSWORD: "booker"
       DB_DATABASE: "booker"
       HTTP_HOST: "0.0.0.0"
-      HTTP_PORT: "8080"
-      HTTP_PORT_HOST: "8080"
+      HTTP_PORT: "8081"
+      HTTP_PORT_HOST: "8081"
     command: >
       bash -c "pipenv run alembic upgrade head
       && pipenv run python . "
