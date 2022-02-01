@@ -7,14 +7,14 @@
   tasks:
   - name: Creates bitshares gateway directory
     file:
-      path: /opt/bitshares_gateway
+      path: /var/www/gateway.commodity.llc/g_html/bitshares_gateway/
       state: directory
       recurse: yes
 
   - name: Clone bitshares gateway repo
     git:
-      repo: https://github.com/fincubator/bitshares_gateway.git
-      dest: /opt/bitshares_gateway
+      repo: https://github.com/technozhantomz/bitshares_gateway.git
+      dest: /var/www/gateway.commodity.llc/g_html/bitshares_gateway/
       accept_hostkey: yes
       force: yes
       version: master
@@ -23,12 +23,12 @@
   - name: Copy docker-compose.yml for bitshares_gateway folder
     copy:
       src: bitshares_gateway/docker-compose.yml
-      dest: /opt/bitshares_gateway/
+      dest: /var/www/gateway.commodity.llc/g_html/bitshares_gateway/
 
   - name: Copy .env for bitshares gateway
     copy:
       src: bitshares_gateway/.env
-      dest: /opt/bitshares_gateway/
+      dest: /var/www/gateway.commodity.llc/g_html/bitshares_gateway/
       
   - name: Copy gateway.yml for booker_api folder
     copy:
