@@ -90,8 +90,8 @@
 
   - name: Clone booker repo
     git:
-      repo: git@github.com:fincubator/booker.git
-      dest: /opt/booker
+      repo: git@github.com:technozhantomz/booker.git
+      dest: /var/www/booker.commodity.llc/b_html/booker
       key_file: /root/.ssh/github_booker
       accept_hostkey: yes
       force: yes

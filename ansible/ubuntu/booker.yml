@@ -4,7 +4,7 @@
   hosts: booker_hosts
   gather_facts: false
   vars:
-    booker_path: '/opt/booker'
+    booker_path: '/var/www/booker.commodity.llc/b_html/booker'
 
   tasks:
   - name: Creates booker directory
@@ -15,7 +15,7 @@
 
   - name: Clone booker repo
     git:
-      repo: https://github.com/fincubator/booker.git
+      repo: https://github.com/technozhantomz/booker.git
       dest: "{{ booker_path }}"
       accept_hostkey: yes
       force: yes
